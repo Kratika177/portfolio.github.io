@@ -1,0 +1,214 @@
+body{
+    background-color: black;
+    color:white;
+    
+    transition-duration: 3s;
+    scroll-behavior: smooth;
+
+}
+.header{
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family:sans-serif;
+}
+.header img{
+    width: 50px;
+    height: 50px;
+}
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ul li{
+    margin-right: 50px;
+    list-style: none;
+}
+.ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.ul a:hover{
+    color:yellow;
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+.summary img{
+    margin-top: 50px;
+    width: 600px;
+    height: 480px;
+    margin-right: 100px;
+    
+}
+.summary {
+    font-size: 50px;
+    display: flex;
+    color: yellow;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    font-weight: bold;
+    
+    
+}
+.summary .sum{
+    color: yellow;
+    font-size: 30px;
+    text-align: justify;
+    margin-right: 50px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.summary img{
+        -webkit-filter: drop-shadow(10px 10px 10px yellow);
+        filter: drop-shadow( 10px 5px 10px yellow);}
+.skills{
+    
+    display: flex;
+    justify-content: center;
+}
+.skills img{
+    
+    width: 700px;
+    height: 100%;
+}
+.skills p{
+    
+    color: yellow;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sk{
+    
+    
+    color: black;
+    justify-content:space-around;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    width: 50%;
+
+}
+.sk .items:hover{
+    background-color: black;
+    color:yellow;
+    border: 1px solid yellow;
+}
+.sk .items{
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    
+}
+.text{
+    margin: 0px;
+    font-size: 50px;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+}
+.train{
+    position: relative;
+    display: flex;
+    
+}
+.an{
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+    background-color: yellow;
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 20px;
+     margin-top: 0px;
+}
+.an:hover{
+    background-color: black;
+    color: yellow;
+    border: 2px solid  yellow;
+}
+.train img{
+    width: 300px;
+    height: 300px;
+    
+    border-radius: 20px;
+    border: 2px solid yellow;
+
+}
+.train:hover{
+    width: 310px;
+    height: 310px;
+}
+
+.t1{
+    text-align: center;
+    width: 250px;
+    position: absolute;
+    top: 1rem;
+    left: 20px;
+    color:yellow;
+    background-color: rgba(0, 0, 0, 0.615);
+    padding-left: 5px;
+}
+.footer{
+    text-align: center;
+    border-top: 2px solid yellow;
+    font-size: 25px;
+}
+#Experience{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    background-color: yellow;
+   
+    
+}
+#work{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.train{
+    margin: 20px;
+
+}
+
+#t{
+    background-color: yellow;
+    color: black;
+}
+#lic{
+    background-color: yellow;
+    color: black;
+}
+div{
+    margin-bottom: 40px;
+}
+p{
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.container .items1 img{
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+   
+}
+.footer img:hover{
+    width:53px;
+    height:53px;
+}
